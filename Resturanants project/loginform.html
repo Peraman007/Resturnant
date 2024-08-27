@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="login">
+        <form action="./login.php" method="POST"> <!-- Use POST method for secure data transfer -->
+            <img src="./photos/login.jpg" width="100px" height="100px" alt="Logo" />
+            <h1>Login</h1>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" class="inputtype" required /><br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" class="inputtype" required /><br><br>
+            <button type="submit" class="btn">Login</button><br><br>
+        </form>
+    </div>
+</body>
+</html>
